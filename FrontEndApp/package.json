@@ -1,0 +1,22 @@
+{
+  "name": "ExpressApp",
+  "version": "0.0.0",
+  "description": "ExpressApp",
+  "main": "app.js",
+  "author": {
+    "name": "coder",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-jslint": "^0.2.2",
+    "jshint-stylish": "^2.0.1"
+  }
+}
