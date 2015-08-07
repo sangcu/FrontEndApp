@@ -81,6 +81,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\dist\core.css" />
+    <Content Include="Content\dist\site.css" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\app\route.js" />
@@ -213,6 +215,7 @@
     <Content Include="Scripts\vendors\jquery\dist\jquery.min.map" />
     <Content Include="Scripts\vendors\jquery\src\sizzle\dist\sizzle.min.map" />
     <Content Include="package.json" />
+    <None Include="Content\app\site.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -222,7 +225,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

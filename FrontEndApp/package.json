@@ -17,6 +17,8 @@
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^1.11.2",
     "gulp-jslint": "^0.2.2",
-    "jshint-stylish": "^2.0.1"
+    "gulp-sass": "^2.0.4",
+    "jshint-stylish": "^2.0.1",
+    "node-sass": "^3.2.0"
   }
 }
