@@ -1,9 +1,10 @@
-﻿/// <binding AfterBuild='core, app' />
+﻿/// <binding BeforeBuild='default, npm, bower' ProjectOpened='watch, npm, bower' />
 var gulp = require('gulp');
 var config = require('./Tasks/dev');
 var concat = require('gulp-concat');
 var jshint = require('gulp-jshint');
 var sass = require('gulp-sass');
+
 gulp.task("jscore", function () {
     return gulp.src(config.script.core.input)
     .pipe(concat({ path: config.script.core.output }))
@@ -33,6 +34,7 @@ gulp.task("cssapp", function () {
         console.log(String(error));
     });
 });
+
 gulp.task("js", ["jscore", "jsapp"]);
 gulp.task("css", ["csscore", "cssapp"]);
 gulp.task("default", ["js", "css"]);
